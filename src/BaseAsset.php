@@ -11,6 +11,10 @@ class BaseAsset extends \yii\web\AssetBundle
         'css/library-base.css',
     ];
 
+    public $depends = [
+        'yii\bootstrap\BootstrapPluginAsset',
+    ];
+
     public $jsOptions = [
         'position' => \yii\web\View::POS_HEAD
     ];
