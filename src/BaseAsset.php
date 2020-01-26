@@ -8,7 +8,7 @@ class BaseAsset extends \yii\web\AssetBundle
         $this->sourcePath = __DIR__ . '/assets';
     }
     public $css = [
-        'css/library-base.css',
+        'css/library-base.min.css',
     ];
 
     public $depends = [
